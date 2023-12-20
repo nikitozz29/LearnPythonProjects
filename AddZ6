@@ -1,0 +1,12 @@
+a = int(input('Введите длину строки > '))
+b = input('Введите символ > ')
+
+for i in range(0, a):
+    print(b, end='')
+
+print('')
+
+i = 0
+while i != a:
+    print(b, end='')
+    i += 1

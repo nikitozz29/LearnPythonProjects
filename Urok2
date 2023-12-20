@@ -1,0 +1,78 @@
+print('My name is', 'Python.', end = ' ')
+print('Monty Python')
+
+print()
+
+print('My', 'name', 'is', 'Monty', 'Python.', sep = '-')
+
+print()
+
+print('My', 'name', 'is', sep = '_', end = '*')
+print('Monty', 'Python.', sep = '*', end = '\n')
+
+print()
+
+print('2' + '2')
+print(2+2)
+
+print()
+
+print(0o123)
+print(0x123)
+print(0x1F)
+
+print()
+
+print(3e8)
+print(2., 2.0, 2.23)
+print(6.62607E-34)
+
+print()
+
+print('I like \'Monty Python\'')
+print('I like "Monty Python"')
+
+print()
+
+print(True > False) 
+print(True < False)
+
+print()
+
+print(11 / 3)
+print(11 // 3)
+print(11 ** 2)
+print(-6 // 4)
+print(6. // -4)
+print(-4 + 4)
+print(-4. + 8)
+print(9 % 6 % 2)
+
+
+print('xbckj '+ '2')
+
+# a = int(input('Введите первое чило\n>'))
+# print(a)
+# znak = input('Ведите действие с числами\n>')
+# print(str(a) + ' ' + znak)
+# b = int(input('Введите второе число\n>'))
+
+# def result(a, b, znak):
+#     if znak == '+':
+#         c =str(a + b)
+#         print(f'Результат >> {c}')
+#     elif znak == '-':
+#         print(a - b)
+#     elif znak == '*':
+#         print(a * b)
+#     elif znak == '/':
+#         print(a / b)
+#     elif znak == '%':
+#         print(a % b)   
+
+
+# Практика 2, задание 1
+print('Nothing\nwill work\nunless you do.\n')
+
+print('Nothing\n\twill work\n\t\tunless you do.')
+

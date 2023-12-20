@@ -1,0 +1,12 @@
+number = int(input('Введите число > '))
+
+if number < 1 or number > 999:
+    print('Ошибка!')
+elif len(str(number)) == 1:
+    print('Цифра')
+elif len(str(number)) == 2:
+    print('Двузначное')
+elif len(str(number)) == 3:
+    print('Трёхзначное')
+else:
+    print('Проверьте ввод')

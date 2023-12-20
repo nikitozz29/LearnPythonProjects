@@ -1,0 +1,11 @@
+login = 'e-mail@mail.com'
+password = '123456Qwerty'
+
+enter_login = input('Введите логин > ')
+enter_password = input('Введите пароль > ')
+
+if enter_login == login and enter_password == password:
+    print('Вы успешно вошли в систему')
+else:
+    print('Логин или пароль не верный')
+
