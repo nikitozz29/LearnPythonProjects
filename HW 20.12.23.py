@@ -35,9 +35,16 @@ elif variant == 'b':
 elif variant == 'c':
     for i in range(1, 4):
         print(' ' * i + '* ' * (4 - i) + ' ' * i)
-# elif variant == 'd':
-# elif variant == 'e':
-# elif variant == 'f':
+elif variant == 'd':
+    for i in range(1, 4):
+        print(' ' * (4 - i) + '* ' * i)
+elif variant == 'e':
+    for i in range(1, 4):
+        print(' ' * i + '* ' * (4 - i) + ' ' * i)
+    for i in range(2, 4):
+        print(' ' * (4 - i) + '* ' * i)
+elif variant == 'f':
+
 # elif variant == 'g':
 # elif variant == 'h':
 # elif variant == 'i':
