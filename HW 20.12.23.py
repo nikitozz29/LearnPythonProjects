@@ -43,7 +43,7 @@ elif variant == 'e':
         print(' ' * i + '* ' * (4 - i) + ' ' * i)
     for i in range(2, 4):
         print(' ' * (4 - i) + '* ' * i)
-elif variant == 'f':
+# elif variant == 'f':
 
 # elif variant == 'g':
 # elif variant == 'h':
