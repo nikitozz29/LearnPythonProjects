@@ -1,8 +1,0 @@
-number = float(input('Введите любое число > '))
-
-if number < 0:
-    print('Отрицательное число')
-elif number > 0:
-    print('Положительное число')
-else:
-    print('Это зеро')
