@@ -2,8 +2,8 @@
 # Пользователь вводит с клавиатуры строку. Произведите поворот строк и полученный результат выведите
 # на экран.
 
-string = input('Введите строку >>')
+string = input('Введите строку > ')
 
-for i in range(len(string) - 1, -1, -1):
-    print(string[i], end='')
+new_string = string[: : -1]
 
+print(new_string)
