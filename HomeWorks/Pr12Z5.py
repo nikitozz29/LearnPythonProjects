@@ -8,6 +8,16 @@ string = input('Введите строку >> ')
 word = input('Введите искомое слово >> ')
 new_word = input('Введите слово на замену >> ')
 
-new_string = string[: string.find(word)] + new_word + string[len(string[0: string.find(word)] + word):]
+# new_string = string[: string.find(word)] + new_word + string[len(string[0: string.find(word)] + word):]
+#
+# print(new_string)
 
-print(new_string)
+text = string.split()
+print(text)
+
+for i in range(len(text)):
+    if text[i] == word:
+        text[i] = new_word
+    print(text)
+
+print(' '.join(text))
