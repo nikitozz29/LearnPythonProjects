@@ -8,6 +8,8 @@
 }
 .sFormula{
     background-color: darksalmon;
+    line-height: 1.6;
+    padding: 3px 0;
 }
 .pFormula{
     text-align: center;
