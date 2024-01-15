@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+blockquote{
+    background-color: chocolate;
+}
+.second{
+    font-style: italic;
+    font-family: Arial;
+}
+.first{
+    font-family: 'Bungee Spice', sans-serif;
+}
+h2,h3,h4{
+    font-family: 'Bookman Old Style', monospace;
+    line-height: 150%;
+    letter-spacing: 10px;
+}
+.third{
+    font-style: oblique;
+}
+.fourth{
+    font-weight: 1000;
+}
+button{
+    color: aqua;
+    color-scheme: red;
+}
