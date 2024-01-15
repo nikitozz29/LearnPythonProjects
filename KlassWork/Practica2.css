@@ -1,3 +1,18 @@
 .paragraph:first-letter{
     font-size:200%;
 }
+.first{
+    opacity:.9;
+}
+.second{
+    opacity: 0.7;
+}
+.third{
+    opacity: 0.5;
+}
+.fourth{
+    opacity: 0.3;
+}
+.fifth{
+    opacity: 0.1;
+}
