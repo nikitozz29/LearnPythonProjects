@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
+
 # import math
 
 try:
@@ -17,8 +18,8 @@ try:
 
     button = browser.find_element(By.XPATH, "//div[6]/button[3]")
     button.click()
-    
-   
+
+
 finally:
     time.sleep(7)
     browser.quit()
