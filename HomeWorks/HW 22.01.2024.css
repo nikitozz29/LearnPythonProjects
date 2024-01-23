@@ -1,0 +1,36 @@
+#main_title{
+    color: brown;
+    text-align: center;
+}
+body{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkgoldenrod;
+}
+.citate{
+    text-align: right;
+}
+hr{
+    border-color: black;
+}
+.title{
+    color: brown;
+    text-transform: uppercase;
+}
+#education{
+    color: brown;
+    text-align: left;
+    font-style: italic;
+    font-size: large;
+}
+span{
+    color: brown;
+    font-style: italic;
+}
+#end{
+    color: brown;
+    font-style: oblique;
+    font-size: larger;
+    text-align: center;
+}
