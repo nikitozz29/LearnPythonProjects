@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW 11.03.2024</title>
+    <style>
+        p
+        {
+            width: 490px;
+            color: gray
+        }
+        .js
+        {width: 650px;
+            margin-left: 20px;
+            padding: 20px;
+            margin-bottom: auto;}
+    </style>
+</head>
+<body>
+<h2>Creating a chart</h2>
+<p>
+    To create a chart, we need to instantiate the <span style="color: black; background: #dbdbdb;">Chart</span> class. To do this, we need
+    to pass in the 2d context of where we want to draw the chart. Here's an example.
+</p>
+<p class='js' style='background: #e8e8e8;'><span style="color: #270def; ">&lt;canvas</span> <span
+        style="color: #17d392; ">id=</span><span style="color: rgb(234, 15, 15); ">"myChart"</span> <span
+        style="color: #17d392; ">width=</span><span style="color: red; ">"400"</span> <span style="color: #17d392; ">height=</span><span
+        style="color: #eb1414; ">"400"</span><span style="color: #280fef; ">&gt;&lt;/canvas&gt;</span></p>
+<p class='js' style='background: #e8e8e8;'>
+    <span style="color:#d1c5b4">// Get the context of the canvas element we want to select</span><br>
+    <b>var</b> ctx = <span style="color: #45a2ff; ">document</span>.getElementById(<span
+        style="color: red; ">"myChart"</span>).getContext(<span style="color: red; ">"2d"</span>);<br>
+    <b>var</b> myNewChart = <b>new</b> Chart(ctx).PolarArea(data);</p>
+
+<p>
+    We can also get the context of our canvas with jQuery. To do this, we need to
+    get the DOM node out of the jQuery collection, and call the
+    <span style="color: black; background: #dbdbdb;">getContext("2d")</span> method on that.
+</p>
+
+<p class='js' style='background: #e8e8e8;;'><span  style="color:#d1c5b4">// Get context with jQuery - using jQuery's .get() method.</span><br>
+    <b>var</b> ctx = $(<span
+            style="color: red; ">"#myChart"</span>).get(<span style="color: #17d392; ">0</span>).getContext(<span
+            style="color: red; ">"2d"</span>);<br>
+    <span  style="color:#d1c5b4">// This will get the first returned node in the jQuery collection</span><br>
+    <b>var</b> myNewChart = <b>new</b> Chart(ctx);</p>
+</body>
+</html>
